@@ -9,14 +9,16 @@
             "homepage": ":author_homepage"
         }
     ],
-    "homepage": "https://github.com/:lc:vendor/:lc:package",
+    "homepage": "https://github.com/shopgenie-dev/:lc:package",
     "keywords": ["Laravel", ":uc:package"],
     "require": {
-        "illuminate/support": "~9"
+        "php": "^8.1|^8.2",
+        "illuminate/support": "^9.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~9.0",
-        "orchestra/testbench": "~7"
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.0",
+        "pestphp/pest-plugin-laravel": "^1.0"
     },
     "autoload": {
         "psr-4": {
